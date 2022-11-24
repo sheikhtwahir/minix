@@ -337,6 +337,7 @@ static void announce(void)
 #ifdef PAE
 "(PAE) "
 #endif
+	"(BUILD : " __DATE__ "->" __TIME__ ")\n"
 #ifdef _VCS_REVISION
 	"(" _VCS_REVISION ")\n"
 #endif
